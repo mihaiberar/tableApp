@@ -1,0 +1,31 @@
+.tableCell {
+  display: table-cell;
+  border: 1px solid black;
+  padding-top: 5px;
+}
+
+.inputCheckBox {
+  height: 11px;
+}
+
+.inputCheckBox:hover {
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background-color: rgb(241, 41, 41);
+  color: white;
+}
+
+.saveBtn {
+  background-color: rgb(158, 183, 228);
+}
+
+.tableCell p {
+  display: flex;
+  color: white;
+}
+
+.tableCell p:hover {
+  color: rgb(241, 41, 41);
+}

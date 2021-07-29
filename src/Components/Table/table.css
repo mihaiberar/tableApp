@@ -1,0 +1,122 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 120px;
+  height: 45px;
+  box-shadow: 0 1px rgb(29, 29, 29);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.searchInput {
+  height: 42px;
+  width: 250px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid black;
+  text-indent: 20px;
+}
+
+.clearBtn,
+.editBtn {
+  width: 40px;
+  background-color: rgb(241, 41, 41);
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.clearBtn:hover,
+.editBtn:hover {
+  opacity: 1;
+}
+
+.removeRowsBtn {
+  background-color: rgb(241, 41, 41);
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.hideRemoveRowsBtn {
+  visibility: hidden;
+}
+
+.removeRowsBtn:hover {
+  opacity: 1;
+}
+
+/* */
+
+.table {
+  margin-top: 20px;
+  display: table;
+  width: 100%;
+  border: 1px solid black;
+}
+.tableRow {
+  display: table-row;
+  height: 35px;
+  font-size: 0.9rem;
+}
+
+.tableRow:hover {
+  background-color: rgb(158, 183, 228);
+}
+
+.tableCell {
+  display: table-cell;
+  border: 1px solid black;
+  padding-top: 5px;
+}
+
+.inputCheckBox {
+  height: 11px;
+}
+
+.inputCheckBox:hover {
+  cursor: pointer;
+}
+
+.tableHeader {
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: rgb(169, 196, 187);
+}
+
+.tableHeader:hover {
+  background-color: rgb(169, 196, 187);
+}
+
+@media only screen and (max-width: 600px) {
+  .tableRow {
+    font-size: 0.8rem;
+  }
+
+  .header {
+    font-size: 0.7rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .searchInput {
+    width: 100px;
+  }
+}

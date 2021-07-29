@@ -1,0 +1,7 @@
+.loadBtn:hover {
+  background-color: rgb(158, 183, 228);
+}
+
+.activeLoadBtn {
+  background-color: rgb(158, 183, 228);
+}
